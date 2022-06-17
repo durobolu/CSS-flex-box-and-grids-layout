@@ -74,6 +74,22 @@ body {
   color: #fff;
   transition: 0.4s;
 }
+.grid-linking {
+  font-size: 25px;
+  text-align: center;
+}
+.grid-linking .link-btn {
+  padding: 20px 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(31, 77%, 52%);
+  margin: 10px 0;
+}
+.grid-linking .link-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
 
 @media (max-width: 768px) {
   .first-box {
